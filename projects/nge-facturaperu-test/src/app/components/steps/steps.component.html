@@ -1,0 +1,21 @@
+
+<nge-step-group>
+  <nge-step>
+    <ng-template ngeStepTitle>
+      <span><i class="fa fa-home"></i></span> Step 1
+    </ng-template>
+    <ng-template ngeStepContent>
+      Conenido del step 1
+    </ng-template>
+  </nge-step>
+  <nge-step icon="fa fa-list-alt" title="Step 2" [validStep]="true">
+  <ng-template ngeStepContent>
+      Contenido del step 2
+    </ng-template>
+  </nge-step>
+  <nge-step icon="fa" disabled="true" title="Disabled">
+    <ng-template ngeStepContent>
+      Contenido del Desabilitado
+  </ng-template>
+  </nge-step>
+</nge-step-group>
